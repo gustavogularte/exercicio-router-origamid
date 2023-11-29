@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  gap: 1.2rem;
+  padding-bottom: 4rem;
+}
+
+.nav a {
+  background-color: #f1f1f1;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.nav ul li a.active {
+  color: red;
+}

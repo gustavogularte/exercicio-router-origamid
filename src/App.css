@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Helvetica, sans-serif;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+img {
+  border-radius: 0.4rem;
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}

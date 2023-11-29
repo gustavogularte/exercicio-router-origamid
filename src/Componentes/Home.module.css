@@ -1,0 +1,15 @@
+.home {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+.home img {
+  border-radius: 0.8rem;
+  padding-bottom: 1.2rem;
+}
+
+.home h2 {
+  font-family: serif;
+  font-weight: bold;
+}
