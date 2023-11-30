@@ -31,3 +31,16 @@ a {
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.animeLeft {
+  opacity: 0;
+  transform: translate3d(-4rem,0,0);
+  animation: animeLeft .3s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    opacity: initial;
+    transform: initial;
+  }
+}

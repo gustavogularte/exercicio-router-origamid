@@ -21,7 +21,7 @@ const Home = () => {
   if (loading) return <Loading />;
   if (data)
     return (
-      <main className={styles.home}>
+      <main className={styles.home + ' animeLeft'}>
         <Head title="Ranek" description="Página da Home" />
         {data.map((produto) => (
           <Link key={produto.id} to={'produto/' + produto.id}>

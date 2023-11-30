@@ -17,7 +17,7 @@ const Produto = () => {
   if (loading) return <Loading />;
   if (data)
     return (
-      <article className={styles.produto}>
+      <article className={styles.produto + ' animeLeft'}>
         <Head title={`Ranek | ${data.nome}`} description="Página de produto" />
         <section>
           {data.fotos.map((foto, index) => (

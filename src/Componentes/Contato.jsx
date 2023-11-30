@@ -4,7 +4,7 @@ import Head from './Head';
 
 const Contato = () => {
   return (
-    <article className={styles.contato}>
+    <article className={styles.contato + ' animeLeft'}>
       <Head title="Ranek | Contato" description="Página de contato" />
       <section className={styles.contatoPerfil}>
         <div>
