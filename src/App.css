@@ -15,7 +15,7 @@ body {
   font-family: Helvetica, sans-serif;
   max-width: 90rem;
   margin: 0 auto;
-  padding: 4rem 1rem;
+  padding: 4rem 1rem 0 1rem;
 }
 
 img {
@@ -26,4 +26,8 @@ img {
 
 a {
   color: inherit;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }

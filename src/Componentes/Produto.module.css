@@ -1,0 +1,28 @@
+.produto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.produto img {
+  padding-bottom: 4rem;
+}
+
+.produtoInfos {
+  padding-top: 2rem;
+}
+
+.produtoInfos h1 {
+  padding-bottom: 0.4rem;
+  font-size: 2rem;
+}
+
+.produtoPreco {
+  background-color: rgb(148, 255, 148);
+  padding: 0.6rem 0.8rem;
+  width: max-content;
+  border-radius: 0.4rem;
+  color: green;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}

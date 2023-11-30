@@ -1,0 +1,39 @@
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  min-height: 100vh;
+  align-content: start;
+}
+
+.contatoPerfil {
+  display: grid;
+  justify-items: center;
+}
+
+.contatoPerfil div {
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 40rem;
+  width: 40rem;
+  margin-bottom: 1.2rem;
+}
+
+.contatoPerfil h2 {
+  padding-bottom: 0.4rem;
+}
+
+.contatoLista {
+  padding-top: 4rem;
+}
+
+.contatoLista h1 {
+  padding-bottom: 2rem;
+  font-size: 3.2rem;
+}
+
+.contatoLista li {
+  padding-bottom: 0.8rem;
+  font-size: 1.8rem;
+}
